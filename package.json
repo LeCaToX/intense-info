@@ -1,0 +1,32 @@
+{
+  "name": "intense-portal",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cổng thông tin INTENSE cho học sinh Việt Nam — database thông minh có nguồn gốc rõ ràng",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && node scripts/sitemap.mjs && vite build",
+    "lint": "tsc --noEmit",
+    "preview": "vite preview",
+    "audit": "node scripts/audit.mjs"
+  },
+  "dependencies": {
+    "papaparse": "^5.5.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "@types/node": "^22.15.0",
+    "@types/papaparse": "^5.3.15",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.4.1",
+    "tailwindcss": "^4.1.8",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
