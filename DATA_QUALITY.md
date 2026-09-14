@@ -18,7 +18,7 @@
 - Trường: **18** (12 gốc + FCU/TKU/TMU/CCU/FJU/TSUST).
 - Chương trình: **58** (đợt 5: +NCHU-Semi; đợt 6: +TSUST×9 — trường outcome VN #1).
 - Nguồn: **62** (1 Tier-1 MOE + 10 roster Tier-1 portal + 51 Tier-2).
-- Quota known: **32/58** (+CCU 14: CHENBRO 5/TA-FA 3/YEONG CHIN 4/hiPower 2; EECS-18 đã có từ bản Spring, bản Fall corroborate + thêm IELTS 5.0/iBT 70/TOEIC 600). Chi tiết: NTUST-IMT 24; NTHU ISICP 20 (cấp chương trình, KHÔNG chia track);
+- Quota known: **33/58** (+NTUST-IM Spring27 quota 3, Pegatron, Vietnam-only — gỡ bế tắc TLS bằng curl -k). Chi tiết: NTUST-IMT 24; NTHU ISICP 20 (cấp chương trình, KHÔNG chia track);
   NCKU Spring27 4×4=16 (ASE Process Engineer); YZU SME 23 / SIA 10 / Accounting 8 / PB-SME 57 (đợt 2024);
   ISU 30 + 20; TKU 11 + 10; TMU 3; KSU 10/30/16/25/25; còn lại UNKNOWN诚实.
 - GPA known: 6/47 (YZU×4 + ISU×2, đều 60/100). IELTS known: 12/47. Học phí known: 14/47 (số niêm yết/kỳ theo guideline).
@@ -100,3 +100,11 @@
 - Xung đột đối tác NTU Semi: deck 114-Fall ghi Himax vs roster 114F ghi 天鈺科技 → partners rotate theo kỳ (mẫu đã thấy ở NCKU ASE/AUO); giữ cả hai.
 - TSUST MAE: guideline (program-specific) ghi tiếng Trung; deck liệt kê một lớp MAE tiếng Anh — giữ guideline + note, có thể là lớp khác.
 - Bảng trường Fall-114 trong deck corroborate: NCKU-AUO, NCHU, NYCU, NCU-Atmo, TKU, FJU-Toàn-Trung-văn, MUST-vắng (khớp roster 114F).
+
+## Đợt 9 (2026-09-14): deep-read toàn văn + sửa sai của chính mình
+
+- Phương pháp mới: mỗi guideline một agent đọc TOÀN VĂN (kèm 1 agent verify độc lập), thay grep từ khóa.
+- Sửa sai: NCU tuition 52.668 là giá ĐẠI HỌC → đúng là 26.620/kỳ + 3.140/tín chỉ (AME/PCB), Photonics 25.700; ISU IELTS 4.0/iBT 42/TOEIC 550 hạ cấp thành null + note (doc chỉ ghi B1); NCKU domestic table cấm import.
+- Mới: NTUST-IM đầy đủ (ITP 433, quota 3, Pegatron, deadlines 7 mốc, tuition 56.080, campus); NCU partners nêu tên 10 công ty (AME 6, PCB 3, FSE); NYCU TOEFL-ITP 500 (ICST+EECS), deadline chains, target countries; KSU ITP 460 + deadline chain; TKU ITP 457; Photonics docs khác biệt (không rec/SOP, có nomination VNUHCM).
+- Schema: thêm toefl_itp (optional) + render ở ProgramDetail.
+- File programs.ts lẫn lộn CRLF/LF (do nhiều đợt ghi) — chuẩn hóa theo block khi sửa.

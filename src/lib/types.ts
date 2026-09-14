@@ -86,6 +86,7 @@ export interface Program {
   min_gpa: FieldValue<number>
   gpa_scale: FieldValue<number>
   ielts: FieldValue<number>
+  toefl_itp?: FieldValue<number>
   toefl_ibt: FieldValue<number>
   toeic: FieldValue<number>
   chinese_req: FieldValue<string>

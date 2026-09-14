@@ -2,9 +2,9 @@ import type { CompanyPartner } from '../lib/types'
 
 export const industryPartners: CompanyPartner[] = [
   { name: 'NVIDIA', sector: 'AI / Bán dẫn', programs: ['ntu-smart-mhi'] },
-  { name: 'Micron Memory Taiwan', sector: 'Bán dẫn', programs: ['nycu-icst-intense', 'ncku-es-27s'] },
+  { name: 'Micron Memory Taiwan', sector: 'Bán dẫn', programs: ['nycu-icst-intense'] },
   { name: 'ASE Technology', sector: 'Đóng gói & kiểm thử bán dẫn', programs: ['isu-equipment', 'ncku-ee-27s'] },
-  { name: 'AUO (AU Optronics)', sector: 'Hiển thị / Điện tử', programs: ['yzu-iem', 'ncku-es-27s'] },
+  { name: 'AUO (AU Optronics)', sector: 'Hiển thị / Điện tử', programs: ['yzu-iem'] },
   { name: 'MediaTek', sector: 'Thiết kế chip', programs: ['nycu-icst-intense'] },
   { name: 'Novatek', sector: 'Thiết kế chip', programs: ['nycu-icst-intense'] },
   { name: 'WIN Semiconductors', sector: 'Bán dẫn', programs: ['nycu-icst-intense'] },
@@ -15,7 +15,6 @@ export const industryPartners: CompanyPartner[] = [
   { name: 'KPMG Taiwan', sector: 'Kiểm toán / Tài chính', programs: ['yzu-accounting'] },
   { name: 'EY Taiwan', sector: 'Kiểm toán / Tài chính', programs: ['yzu-accounting'] },
   { name: 'Tong Yang', sector: 'Sản xuất', programs: ['isu-equipment'] },
-  { name: 'CECI Engineering', sector: 'Kỹ thuật', programs: ['ncku-es-27s'] },
   { name: 'Formosa Labs', sector: 'Dược phẩm', programs: ['tmu-biotech-26f'] },
   { name: 'Catcher Technology', sector: 'Cơ khí chính xác', programs: ['ksu-imm-26f', 'ksu-pm-26f'] },
   { name: 'Fang Jun', sector: 'Sản xuất', programs: ['ksu-mee-26f', 'ksu-epf-26f'] },
