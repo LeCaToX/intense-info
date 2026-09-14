@@ -108,3 +108,8 @@
 - Mới: NTUST-IM đầy đủ (ITP 433, quota 3, Pegatron, deadlines 7 mốc, tuition 56.080, campus); NCU partners nêu tên 10 công ty (AME 6, PCB 3, FSE); NYCU TOEFL-ITP 500 (ICST+EECS), deadline chains, target countries; KSU ITP 460 + deadline chain; TKU ITP 457; Photonics docs khác biệt (không rec/SOP, có nomination VNUHCM).
 - Schema: thêm toefl_itp (optional) + render ở ProgramDetail.
 - File programs.ts lẫn lộn CRLF/LF (do nhiều đợt ghi) — chuẩn hóa theo block khi sửa.
+
+## Đợt 10 (2026-09-14): total re-read 9 tài liệu, mỗi cái 1 agent + verify
+
+- NTHU 11/11 khớp; YZU fix (SIA IELTS→null, stipend conflict note, duration 2–4); ISU 6 fix (college hoán đổi, degree→Cử nhân 2 năm, docs về SOT/mời PV, English hạ cấp B1-note); TMU/TKU 0 sai + TMU language→EN; KSU rec→0 + waiver true (học phí về 0) + chinese + duration 24; CCU research-plan true; FJU check-in; TSUST partners đủ 5+5; NCKU duration/internship provenance về prospectus; NCU obligation→2 (pro-rata §8(2)); NTUST-IM full-fill (curl -k); ICST waitlist sửa Dec-30; NCU-Atmo mới.
+- File programs.ts lẫn CRLF/LF — chuẩn hóa theo block khi sửa (ghi nhận để khỏi tái diễn).
