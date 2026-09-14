@@ -25,4 +25,5 @@ export const historyEvents: HistoryEvent[] = [
   { year: '2026', entity: 'MOE / NTU Program Office', change: 'Roster 115 Spring 2 vòng (nhập học 02/2027) + catalog explorer 66 programs Spring 2027 lọc theo trường/field/degree/language/region.', source_id: 'portal-explorer27', kind: 'POLICY' },
   { year: '2026', entity: 'MOE / NTU Program Office', change: 'Roster 116 Fall (Fall 2027) đã duyệt 2 đợt (03/2026 + 08/2026) — chu kỳ xa nhất hiện có.', source_id: 'portal-116f', kind: 'POLICY' },
   { year: '2026', entity: 'INTACT Base Vietnam (NTUST)', change: 'Fall 2026: 188 SV Việt Nam trúng tuyển (STEM 161/85,6%, bán dẫn 24, tài chính 3; tiếng Anh 54,8%; thạc sĩ 98, cử nhân 2 năm 72; Bắc 112/Nam 52/Trung 11; nguồn TNUT 25, HPC 16, FPT 12).', source_id: 'intact-188-vi', kind: 'POLICY' },
+  { year: '2025', entity: 'MOE', change: 'Deck 10/2025: tổng chỉ tiêu 2024: 1.184; 2025: 960–1.230; 2026: 1.295–1.595; 2027: 1.500–1.770; thêm loại hình 5 (cử nhân học chung sinh viên nội địa); năm 2 chỉ 70% khá được tài trợ tiếp.', source_id: 'moe-deck-vi', kind: 'POLICY' },
 ]

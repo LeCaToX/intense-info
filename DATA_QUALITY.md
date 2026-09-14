@@ -91,3 +91,12 @@
 - CCU brochure full 7 trang (tải qua uc-export sau khi viewer-only fail): quota 14 theo vị trí công ty, research plan 3000 từ bắt buộc, rec ×2.
 - NTU reurl resolve ra trang OIA admission-system nhưng báo 無法取得簡章資訊 (dead end诚实); NTUST host vẫn chết.
 - MHI tuition fix: 100.000/kỳ niêm yết (50.000 chỉ là subsidy).
+
+## Đợt 8 (2026-09-14): deck MOE tiếng Việt do user cung cấp
+
+- File: docs/moe-intense-deck-20251022-vi.pdf (47 trang, đã dời khỏi src/data/) → source moe-deck-vi (Tier-1, vi) + history event 2025.
+- Bảng quota toàn cổng: 2024: 1.184 / 2025: 960–1.230 / 2026: 1.295–1.595 / 2027: 1.500–1.770. GIẢI THÍCH claim 919: 919 là Fall-2026-only (agency), deck là full-year 2026 → không mâu thuẫn, 919 vẫn Tier-5.
+- Loại hình 5 MỚI: cử nhân học chung sinh viên nội địa. Quy tắc 70%: năm 2 chỉ 70% khá được tài trợ tiếp (30% còn lại trường hỗ trợ).
+- Xung đột đối tác NTU Semi: deck 114-Fall ghi Himax vs roster 114F ghi 天鈺科技 → partners rotate theo kỳ (mẫu đã thấy ở NCKU ASE/AUO); giữ cả hai.
+- TSUST MAE: guideline (program-specific) ghi tiếng Trung; deck liệt kê một lớp MAE tiếng Anh — giữ guideline + note, có thể là lớp khác.
+- Bảng trường Fall-114 trong deck corroborate: NCKU-AUO, NCHU, NYCU, NCU-Atmo, TKU, FJU-Toàn-Trung-văn, MUST-vắng (khớp roster 114F).
